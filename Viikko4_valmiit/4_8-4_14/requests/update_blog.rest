@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/:id
+Content-Type: application/json
+
+{
+    "title":  "Rutto on perkeleestä",
+    "author": "Maaorja",
+    "url": "https://fullstack-hy2019.github.io/osa4/sovelluksen_rakenne_ja_testauksen_alkeet",
+    "likes": 654768,
+    "id": "5c6b165ca2f54f513c78d6a2"
+}

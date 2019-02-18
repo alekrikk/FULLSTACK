@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title":  "Kakka on perseestä",
+    "author": "Anus",
+    "url": "https://fullstack-hy2019.github.io/osa4/sovelluksen_rakenne_ja_testauksen_alkeet",
+    "likes": 1
+}
+
